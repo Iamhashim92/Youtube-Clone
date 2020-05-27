@@ -10,7 +10,7 @@ export default class App extends Component {
     this.onTermSubmit('Magical Messi');
   }
   onTermSubmit = async (term) => {
-    const KEY = 'AIzaSyBpyho_e5PngBzzI-eEkj8vJ_H34PRUp0M';
+    const KEY = 'AIzaSyBpyho_e5PngBzzI-eEkj8vJ_HM';
     const response = await Youtube.get('/search', {
       params: {
         q: term,
